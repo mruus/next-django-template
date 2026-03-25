@@ -1,0 +1,32 @@
+{
+  "ciidanka": "HRM",
+  "maaliyadda": "Maaliyadda",
+  "taakuleynta": "Taakuleynta",
+  "maamulka": {
+    "title": "Maamulka",
+    "title2": "Access Control",
+    "users": "Isticmaalayaasha",
+    "permissions": "Ogolaanshaha",
+    "groups": "Kooxaha",
+    "assign": "U qoondee",
+    "sync-menu": "Sync Menu"
+  },
+  "settings": {
+    "title": "Qaabeynta",
+    "tribes": "Qabiilooyinka",
+    "locations": "Goobaha",
+    "labels": "Calaamado",
+    "qualifications": "Shahaadooyinka",
+    "banks": "Bangiyada",
+    "battalionTree": "Geedka Guutooyinka",
+    "jobTitles": "Magacyada Shaqada",
+    "ranks": "Darajooyinka",
+    "payScale": "Miisaaniyadda Mushaharka",
+    "contractType": "Nooca Qandaraaska",
+    "allowances": "Gunnada"
+  },
+  "personnel": {
+    "create": "Abuur Askari",
+    "list": "Liiska Askarta"
+  }
+}

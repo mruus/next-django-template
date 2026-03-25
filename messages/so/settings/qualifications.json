@@ -1,0 +1,24 @@
+{
+  "addQualification": "Ku dar Qandaraas",
+  "education": "Waxbarasho",
+  "skill": "Aqoonta",
+  "other": "Kale",
+  "filters": {
+    "selectField": "Dooro goobta raadinta"
+  },
+  "drawerTitleCreate": "Ku dar Qandaraas",
+  "drawerTitleEdit": "Tafatir Qandaraas",
+  "confirmDeleteTitle": "Tirtir Qandaraas?",
+  "confirmDeleteDescription": "Ma hubtaa inaad tirtiri doonto qandaraaskan? Waxqabadkani dib looma celin karo.",
+  "validation": {
+    "nameRequired": "Magaca Qandaraaska waa loo baahan yahay",
+    "typeRequired": "Nooca waa loo baahan yahay"
+  },
+  "toasts": {
+    "createSuccess": "Qandaraasku si guul leh waa la abuuray",
+    "updateSuccess": "Qandaraasku si guul leh waa la cusboonaysiiyay",
+    "deleteSuccess": "Qandaraasku si guul leh waa la tirtiray",
+    "error": "Waxaa dhacay qalad inta lagu jiray hawsha"
+  }
+}
+

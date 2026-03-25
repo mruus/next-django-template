@@ -1,0 +1,30 @@
+{
+  "addLabel": "Ku dar Calaamad",
+  "battalion": "Bataliyoon",
+  "location": "Goobta",
+  "other": "Kale",
+  "filters": {
+    "selectField": "Dooro goobta raadinta",
+    "searchOptions": {
+      "name": "Magaca",
+      "host": "Hosta",
+      "protocol": "Protokolka",
+      "environment": "Deegaanka",
+      "apiPrefix": "API Prefix"
+    }
+  },
+  "drawerTitleCreate": "Ku dar Calaamad",
+  "drawerTitleEdit": "Tafatir Calaamad",
+  "confirmDeleteTitle": "Tirtir Calaamad?",
+  "confirmDeleteDescription": "Ma hubtaa inaad tirtiri doonto calaamaddan? Waxqabadkani dib looma celin karo.",
+  "validation": {
+    "nameRequired": "Magaca Calaamadda waa loo baahan yahay",
+    "typeRequired": "Nooca waa loo baahan yahay"
+  },
+  "toasts": {
+    "createSuccess": "Calaamadda waa la abuuray si guul leh",
+    "updateSuccess": "Calaamadda waa la cusboonaysiiyay si guul leh",
+    "deleteSuccess": "Calaamadda waa la tirtiray si guul leh",
+    "error": "Waxaa dhacay qalad inta lagu jiray hawsha"
+  }
+}

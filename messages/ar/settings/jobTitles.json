@@ -1,0 +1,18 @@
+{
+  "addJobTitle": "إضافة مسمى وظيفي",
+  "description": "الوصف",
+  "drawerTitleCreate": "إضافة مسمى وظيفي",
+  "drawerTitleEdit": "تعديل المسمى الوظيفي",
+  "confirmDeleteTitle": "حذف المسمى الوظيفي؟",
+  "confirmDeleteDescription": "هل أنت متأكد من أنك تريد حذف هذا المسمى الوظيفي؟ لا يمكن التراجع عن هذا الإجراء.",
+  "validation": {
+    "nameRequired": "اسم المسمى الوظيفي مطلوب"
+  },
+  "toasts": {
+    "createSuccess": "تم إنشاء المسمى الوظيفي بنجاح",
+    "updateSuccess": "تم تحديث المسمى الوظيفي بنجاح",
+    "deleteSuccess": "تم حذف المسمى الوظيفي بنجاح",
+    "error": "حدث خطأ أثناء العملية"
+  }
+}
+

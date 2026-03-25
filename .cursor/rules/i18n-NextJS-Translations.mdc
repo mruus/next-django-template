@@ -1,0 +1,46 @@
+---
+alwaysApply: true
+---
+
+# i18n (next-intl) — Agent rule guide
+
+This project uses **next-intl** with a **`[locale]` segment**, **en/ar/so** locales, and **RTL** for Arabic. Follow this setup when adding or changing anything related to translations or locale.
+
+## Files you must use and not change
+
+- **`i18n.ts`** — Defines `locales`, `defaultLocale`, `Locale`. Add new locales here only if the product requires it.
+- **`navigation.ts`** — Exports **`Link`, `useRouter`, `usePathname`, `redirect`** from `createNavigation` (from `next-intl/navigation`). Use these for all internal links and navigation; do **not** use `next/link` or `next/navigation` for locale-aware routes.
+- **`i18n/request.ts`** — `getRequestConfig` loads messages from `../messages/{locale}.json` and validates locale. Messages path is fixed; keep it.
+- **`middleware.ts`** — next-intl middleware: redirects to locale-prefixed paths, `localePrefix: "always"`. Matcher excludes api, _next, _vercel, and static files. Do not remove or bypass.
+- **`next.config.ts`** — Wrapped with `createNextIntlPlugin()`. Required for next-intl; do not remove.
+- **`app/[locale]/layout.tsx`** — Validates `params.locale`, calls `notFound()` if invalid, uses `setRequestLocale`, provides `NextIntlClientProvider` with `locale` and `getMessages()`, renders `LocaleAttributes`. All locale-scoped routes live under `app/[locale]/`.
+- **`app/[locale]/locale-attributes.tsx`** — Sets `document.documentElement.lang` and `dir` (e.g. `rtl` for `ar`). Keep it in the layout.
+- **`messages/en.json`**, **`messages/ar.json`**, **`messages/so.json`** — Source of truth for copy. Add new keys in all three when adding translatable strings.
+
+## How redirect and routing work
+
+- **Root `/`** — Middleware redirects to `/{defaultLocale}` (e.g. `/en`). No page at `app/page.tsx`; locale is always in the path.
+- **All app routes** — Must live under **`app/[locale]/...`** (e.g. `app/[locale]/(home)/page.tsx`). The first segment is always a locale.
+- **Changing language** — Use `useRouter()` and `usePathname()` from **`@/navigation`**. To switch locale while staying on the same page: `router.replace(pathname, { locale: newLocale })`. Do not build paths by hand; the navigation helpers add the locale prefix.
+- **Links** — Use **`Link`** from **`@/navigation`** with `href` as the pathname (e.g. `href="/dashboard"`). The wrapper adds the current locale automatically.
+
+## How the setup works
+
+1. **Request**: Middleware runs first, then next-intl’s `getRequestConfig` in `i18n/request.ts` receives `requestLocale` (from the `[locale]` segment), validates it, and returns `locale` and `messages` for that locale.
+2. **Layout**: `app/[locale]/layout.tsx` gets `locale` from `params`, validates it, calls `setRequestLocale(locale)`, loads messages with `getMessages()`, and wraps children in `NextIntlClientProvider` with that `locale` and `messages`.
+3. **Client**: Any client component under `[locale]` can use `useTranslations()`, `useLocale()`, and the navigation exports from `@/navigation`; they all see the current locale and messages.
+
+## What to use when adding or editing translations
+
+- **Translatable text** — In client components: `const t = useTranslations();` then `t('key')` or `t('namespace.key')`. Keys must exist in `messages/en.json`, `messages/ar.json`, `messages/so.json`.
+- **Current locale** — `useLocale()` from `next-intl` (e.g. to branch UI or show locale-specific options like fonts).
+- **Links and navigation** — Always use **`Link`**, **`useRouter`**, **`usePathname`**, **`redirect`** from **`@/navigation`**, never from `next/link` or `next/navigation`, so locale prefix and routing stay correct.
+- **Server** — Use `getTranslations`, `getLocale`, `getMessages`, `redirect` from `next-intl/server` when needed; for `redirect` with locale, use the one from `@/navigation` if you need locale-aware redirects in server code (or pass the target locale explicitly).
+- **RTL** — Use logical Tailwind utilities: `ms-`/`me-` instead of `ml-`/`mr-`, `ps-`/`pe-` instead of `pl-`/`pr-`, `border-s`/`border-e` instead of `border-l`/`border-r`, `start-0`/`end-0` instead of `left-0`/`right-0`, `text-start`/`text-end` instead of `text-left`/`text-right`. For directional chevrons/icons, add `rtl:rotate-180` where they should flip in RTL.
+
+## Summary
+
+- Locale comes from the **`[locale]`** segment; middleware enforces it.
+- **Navigation**: use **`@/navigation`** only for `Link`, `useRouter`, `usePathname`, `redirect`.
+- **Translations**: use **`useTranslations()`** and keys in **`messages/{en,ar,so}.json`**.
+- **RTL**: use logical Tailwind and `rtl:rotate-180` for directional UI; `dir` and `lang` are set in **`locale-attributes.tsx`**.

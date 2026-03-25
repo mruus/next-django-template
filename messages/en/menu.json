@@ -1,0 +1,33 @@
+{
+  "ciidanka": "HRM",
+  "maaliyadda": "Finance",
+  "taakuleynta": "Logistics",
+  "personnel": {
+    "title": "Personnel",
+    "create": "Add Personnel",
+    "list": "Personnel List"
+  },
+  "maamulka": {
+    "title": "Administration",
+    "title2": "Access Control",
+    "users": "Users",
+    "permissions": "Permissions",
+    "groups": "Groups",
+    "assign": "Assign",
+    "sync-menu": "Sync Menu"
+  },
+  "settings": {
+    "title": "Settings",
+    "tribes": "Tribes",
+    "locations": "Locations",
+    "labels": "Labels",
+    "qualifications": "Qualifications",
+    "banks": "Banks",
+    "battalionTree": "Battalion Tree",
+    "jobTitles": "Job Titles",
+    "ranks": "Ranks",
+    "payScale": "Pay Scale",
+    "contractType": "Contract Type",
+    "allowances": "Allowances"
+  }
+}

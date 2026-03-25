@@ -1,0 +1,22 @@
+{
+  "addAllowance": "Add Allowance",
+  "contractType": "Contract Type",
+  "amount": "Amount",
+  "description": "Description",
+  "drawerTitleCreate": "Add Allowance",
+  "drawerTitleEdit": "Edit Allowance",
+  "confirmDeleteTitle": "Delete Allowance?",
+  "confirmDeleteDescription": "Are you sure you want to delete this allowance? This action cannot be undone.",
+  "validation": {
+    "contractTypeRequired": "Contract type is required",
+    "nameRequired": "Allowance name is required",
+    "amountRequired": "Amount must be valid"
+  },
+  "toasts": {
+    "createSuccess": "Allowance created successfully",
+    "updateSuccess": "Allowance updated successfully",
+    "deleteSuccess": "Allowance deleted successfully",
+    "error": "Something went wrong"
+  }
+}
+

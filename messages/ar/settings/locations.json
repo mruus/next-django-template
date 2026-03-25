@@ -1,0 +1,21 @@
+{
+  "addRootNode": "إضافة عقدة جذر",
+  "addChild": "إضافة فرع",
+  "addLocation": "إضافة موقع",
+  "label": "الوسم",
+  "drawerTitleCreate": "إنشاء موقع",
+  "drawerTitleEdit": "تعديل الموقع",
+  "confirmDeleteTitle": "حذف الموقع",
+  "confirmDeleteDescription": "هل أنت متأكد أنك تريد حذف هذا الموقع؟",
+  "validation": {
+    "nameRequired": "الاسم مطلوب",
+    "labelRequired": "الوسم مطلوب"
+  },
+  "toasts": {
+    "createSuccess": "تم إنشاء الموقع بنجاح",
+    "updateSuccess": "تم تحديث الموقع بنجاح",
+    "deleteSuccess": "تم حذف الموقع بنجاح",
+    "error": "حدث خطأ ما"
+  }
+}
+

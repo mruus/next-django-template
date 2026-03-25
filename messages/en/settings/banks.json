@@ -1,0 +1,20 @@
+{
+  "addBank": "Add Bank",
+  "filters": {
+    
+  },
+  "drawerTitleCreate": "Add Bank",
+  "drawerTitleEdit": "Edit Bank",
+  "confirmDeleteTitle": "Delete Bank?",
+  "confirmDeleteDescription": "Are you sure you want to delete this bank? This action cannot be undone.",
+  "validation": {
+    "nameRequired": "Bank name is required"
+  },
+  "toasts": {
+    "createSuccess": "Bank created successfully",
+    "updateSuccess": "Bank updated successfully",
+    "deleteSuccess": "Bank deleted successfully",
+    "error": "Something went wrong"
+  }
+}
+

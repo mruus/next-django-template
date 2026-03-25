@@ -1,0 +1,20 @@
+{
+  "addBank": "Ku dar Bangi",
+  "filters": {
+    
+  },
+  "drawerTitleCreate": "Ku dar Bangi",
+  "drawerTitleEdit": "Tafatir Bangiga",
+  "confirmDeleteTitle": "Tirtir Bangiga?",
+  "confirmDeleteDescription": "Ma hubtaa inaad tirtiri doonto bangigan? Waxqabadkani dib looma celin karo.",
+  "validation": {
+    "nameRequired": "Magaca Bangigu waa loo baahan yahay"
+  },
+  "toasts": {
+    "createSuccess": "Bangigu si guul leh ayaa loo abuuray",
+    "updateSuccess": "Bangigu si guul leh ayaa loo cusboonaysiiyay",
+    "deleteSuccess": "Bangiga si guul leh ayaa loo tirtiray",
+    "error": "Waxaa dhacay qalad inta lagu jiray hawsha"
+  }
+}
+

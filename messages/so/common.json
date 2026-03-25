@@ -1,0 +1,21 @@
+{
+  "name": "Magaca",
+  "type": "Nooca",
+  "username": "Magaca isticmaalaha",
+  "email": "Iimaylka",
+  "createdAt": "Taariikhda La Abuuro",
+  "createdBy": "Waxa Abuurtay",
+  "actions": "Ficillo",
+  "edit": "Wax ka bedel",
+  "delete": "Tirtir",
+  "save": "Kaydi",
+  "cancel": "Jooji",
+  "confirm": "Xaqiiji",
+  "back": "Laabo",
+  "status": "Status",
+  "filters": {
+    "enterKeyword": "Geli ereyga raadinta...",
+    "search": "Raadi",
+    "clear": "Nadiifi"
+  }
+}

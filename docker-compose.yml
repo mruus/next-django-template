@@ -1,0 +1,24 @@
+version: "3.9"
+
+services:
+  redis:
+    image: redis:7-alpine # lightweight, production-grade image
+    container_name: redis
+    restart: unless-stopped # auto-restart on crash or reboot
+    ports:
+      - "6380:6379" # host:container — avoid local Redis conflict
+    volumes:
+      - ./docker/redis/redis.conf:/usr/local/etc/redis/redis.conf # mount our config
+      - redis_data:/data # persist data across restarts
+    command: redis-server /usr/local/etc/redis/redis.conf # use our config
+    environment:
+      - REDIS_PASSWORD=${REDIS_PASSWORD}
+    healthcheck:
+      test: ["CMD", "redis-cli", "-a", "${REDIS_PASSWORD}", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  redis_data:
+    driver: local

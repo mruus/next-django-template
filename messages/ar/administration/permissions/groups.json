@@ -1,0 +1,26 @@
+{
+  "title": "المجموعات",
+  "addGroup": "إضافة مجموعة",
+  "groups": "المجموعات",
+  "drawerTitleCreate": "إضافة مجموعة",
+  "drawerTitleEdit": "تعديل مجموعة",
+  "confirmDeleteTitle": "حذف المجموعة؟",
+  "confirmDeleteDescription": "هل أنت متأكد من رغبتك في حذف هذه المجموعة؟ لا يمكن التراجع عن هذا الإجراء.",
+  "permissions": "الصلاحيات",
+  "permissionList": "قائمة الصلاحيات",
+  "namePlaceholder": "أدخل اسم المجموعة",
+  "searchPermissions": "البحث في الصلاحيات...",
+  "noPermissionsFound": "لم يتم العثور على صلاحيات",
+  "selectedCount": "المحدد: {count}",
+  "resetChanges": "إعادة تعيين",
+  "validation": {
+    "nameRequired": "اسم المجموعة مطلوب"
+  },
+  "toasts": {
+    "createSuccess": "تم إنشاء المجموعة بنجاح",
+    "updateSuccess": "تم تحديث المجموعة بنجاح",
+    "deleteSuccess": "تم حذف المجموعة بنجاح",
+    "error": "حدث خطأ ما",
+    "permissionsSaveSuccess": "تم تحديث صلاحيات المجموعة"
+  }
+}

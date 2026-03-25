@@ -1,0 +1,21 @@
+{
+  "addRootNode": "Ku dar qodob xidid",
+  "addChild": "Ku dar ilmo",
+  "addLocation": "Ku dar goob",
+  "label": "Calaamad",
+  "drawerTitleCreate": "Samee goob",
+  "drawerTitleEdit": "Wax ka beddel goob",
+  "confirmDeleteTitle": "Tirtir goob",
+  "confirmDeleteDescription": "Ma hubtaa inaad tirtirto goobtan?",
+  "validation": {
+    "nameRequired": "Magac waa waajib",
+    "labelRequired": "Calaamad waa waajib"
+  },
+  "toasts": {
+    "createSuccess": "Goob waa la sameeyay",
+    "updateSuccess": "Goob waa la cusboonaysiiyay",
+    "deleteSuccess": "Goob waa la tirtiray",
+    "error": "Waxbaa qaldamay"
+  }
+}
+

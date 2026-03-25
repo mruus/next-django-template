@@ -1,0 +1,30 @@
+{
+  "addLabel": "Add Label",
+  "battalion": "Battalion",
+  "location": "Location",
+  "other": "Other",
+  "filters": {
+    "selectField": "Select field to search",
+    "searchOptions": {
+      "name": "Name",
+      "host": "Host",
+      "protocol": "Protocol",
+      "environment": "Environment",
+      "apiPrefix": "API Prefix"
+    }
+  },
+  "drawerTitleCreate": "Add Label",
+  "drawerTitleEdit": "Edit Label",
+  "confirmDeleteTitle": "Delete Label?",
+  "confirmDeleteDescription": "Are you sure you want to delete this label? This action cannot be undone.",
+  "validation": {
+    "nameRequired": "Label name is required",
+    "typeRequired": "Type is required"
+  },
+  "toasts": {
+    "createSuccess": "Label created successfully",
+    "updateSuccess": "Label updated successfully",
+    "deleteSuccess": "Label deleted successfully",
+    "error": "Something went wrong"
+  }
+}

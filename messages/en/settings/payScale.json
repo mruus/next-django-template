@@ -1,0 +1,32 @@
+{
+  "addPayScale": "Add Pay Scale",
+  "rank": "Rank",
+  "contractType": "Contract Type",
+  "salary": "Salary",
+  "iida": "IIDA",
+  "deduction": "Deduction",
+  "insurance": "Insurance",
+  "ageOfRetirement": "Age of Retirement",
+  "slug": "Slug",
+  "drawerTitleCreate": "Add Pay Scale",
+  "drawerTitleEdit": "Edit Pay Scale",
+  "confirmDeleteTitle": "Delete Pay Scale?",
+  "confirmDeleteDescription": "Are you sure you want to delete this pay scale? This action cannot be undone.",
+  "validation": {
+    "rankRequired": "Rank is required",
+    "contractTypeRequired": "Contract type is required",
+    "salaryRequired": "Salary must be valid",
+    "iidaRequired": "IIDA must be valid",
+    "deductionRequired": "Deduction must be valid",
+    "insuranceRequired": "Insurance must be valid",
+    "ageOfRetirementRequired": "Age of retirement must be valid",
+    "slugRequired": "Slug is required"
+  },
+  "toasts": {
+    "createSuccess": "Pay scale created successfully",
+    "updateSuccess": "Pay scale updated successfully",
+    "deleteSuccess": "Pay scale deleted successfully",
+    "error": "Something went wrong"
+  }
+}
+

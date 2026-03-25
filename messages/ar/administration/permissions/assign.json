@@ -1,0 +1,20 @@
+{
+  "title": "تعيين الصلاحيات",
+  "searchPlaceholder": "ابحث بالاسم أو البريد أو اسم المستخدم…",
+  "searchMinChars": "أدخل حرفين على الأقل",
+  "searching": "جاري البحث…",
+  "noResults": "لا مستخدمين",
+  "clearUser": "تغيير المستخدم",
+  "groupsTitle": "المجموعات",
+  "groupsHint": "العضوية تمنح كل صلاحيات المجموعة. أزل المستخدم من المجموعة لإسقاطها.",
+  "directTitle": "صلاحيات مباشرة",
+  "directHint": "الصلاحيات الممنوحة عبر المجموعات لا تظهر هنا.",
+  "permissionCount": "{count} صلاحية",
+  "selectedDirectCount": "مباشر: {count}",
+  "save": "حفظ",
+  "reset": "إعادة تعيين",
+  "toasts": {
+    "saveSuccess": "تم تحديث التعيينات",
+    "error": "حدث خطأ"
+  }
+}

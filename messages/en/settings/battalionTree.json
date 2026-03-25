@@ -1,0 +1,24 @@
+{
+  "addRootNode": "Add root node",
+  "addChild": "Add child",
+  "addBattalionTree": "Add Battalion Tree",
+  "name": "Name",
+  "label": "Label",
+  "parent": "Parent",
+  "noParent": "No parent",
+  "drawerTitleCreate": "Add Battalion Tree",
+  "drawerTitleEdit": "Edit Battalion Tree",
+  "confirmDeleteTitle": "Delete this node?",
+  "confirmDeleteDescription": "Are you sure you want to delete this node? This action cannot be undone.",
+  "validation": {
+    "nameRequired": "Name is required",
+    "labelRequired": "Label is required"
+  },
+  "toasts": {
+    "createSuccess": "Node created successfully",
+    "updateSuccess": "Node updated successfully",
+    "deleteSuccess": "Node deleted successfully",
+    "error": "Something went wrong"
+  }
+}
+

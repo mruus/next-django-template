@@ -1,0 +1,18 @@
+{
+  "groups": "Groups",
+  "directPermissions": "Direct Permissions",
+  "groupPermissions": "Group Permissions",
+  "allPermissions": "All Permissions",
+  "status_active": "Active",
+  "status_suspended": "Suspended",
+  "status_blocked": "Blocked",
+  "buttons": {
+    "groups": "Groups",
+    "assign": "Assign",
+    "syncMenu": "Sync Menu"
+  },
+  "syncMenu": {
+    "title": "Menu Permissions Sync",
+    "description": "Sync menu structure with Django permissions"
+  }
+}

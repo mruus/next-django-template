@@ -1,0 +1,18 @@
+{
+  "addJobTitle": "Ku dar Magaca Shaqo",
+  "description": "Sharaxaad",
+  "drawerTitleCreate": "Ku dar Magaca Shaqo",
+  "drawerTitleEdit": "Wax ka beddel Magaca Shaqo",
+  "confirmDeleteTitle": "Tirtir Magaca Shaqo?",
+  "confirmDeleteDescription": "Ma hubtaa inaad tirtiri doonto magaca shaqadan? Waxqabadkani dib looma celin karo.",
+  "validation": {
+    "nameRequired": "Magaca shaqadu waa loo baahan yahay"
+  },
+  "toasts": {
+    "createSuccess": "Magaca shaqada si guul leh ayaa loo abuuray",
+    "updateSuccess": "Magaca shaqada si guul leh ayaa loo cusboonaysiiyay",
+    "deleteSuccess": "Magaca shaqada si guul leh ayaa loo tirtiray",
+    "error": "Waxaa dhacay qalad inta lagu jiray hawsha"
+  }
+}
+

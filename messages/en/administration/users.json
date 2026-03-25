@@ -1,0 +1,32 @@
+{
+  "status": "Status",
+  "addUser": "Add User",
+  "drawerTitleCreate": "Add User",
+  "drawerTitleEdit": "Edit User",
+  "confirmDeleteTitle": "Delete User?",
+  "confirmDeleteDescription": "Are you sure you want to delete this user? This action cannot be undone.",
+  "avatar": "Avatar",
+  "noAvatar": "No photo",
+  "chooseImage": "Choose image",
+  "removeImage": "Remove",
+  "firstName": "First name",
+  "lastName": "Last name",
+  "password": "Password",
+  "passwordPlaceholder": "Leave blank to keep current",
+  "gender": "Gender",
+  "gender_Male": "Male",
+  "gender_Female": "Female",
+  "status_active": "Active",
+  "status_suspended": "Suspended",
+  "status_blocked": "Blocked",
+  "phone": "Phone",
+  "validation": {
+    "passwordRequired": "Password is required"
+  },
+  "toasts": {
+    "createSuccess": "User created successfully",
+    "updateSuccess": "User updated successfully",
+    "deleteSuccess": "User deleted successfully",
+    "error": "Something went wrong"
+  }
+}

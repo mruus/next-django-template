@@ -1,0 +1,24 @@
+{
+  "addRootNode": "Ku dar qodob xidid",
+  "addChild": "Ku dar ilmo",
+  "addBattalionTree": "Ku dar Shaxda Guutooyinka",
+  "name": "Magaca",
+  "label": "Calaamad",
+  "parent": "Waalid",
+  "noParent": "Waalid la'aan",
+  "drawerTitleCreate": "Ku dar Shaxda Guutooyinka",
+  "drawerTitleEdit": "Wax ka beddel Shaxda Guutooyinka",
+  "confirmDeleteTitle": "Tirtir qodobkan?",
+  "confirmDeleteDescription": "Ma hubtaa inaad tirtiri doonto qodobkan? Waxqabadkani dib looma celin karo.",
+  "validation": {
+    "nameRequired": "Magaca waa loo baahan yahay",
+    "labelRequired": "Calaamadda waa loo baahan yahay"
+  },
+  "toasts": {
+    "createSuccess": "Qodobka waa la abuuray si guul leh",
+    "updateSuccess": "Qodobka waa la cusboonaysiiyay si guul leh",
+    "deleteSuccess": "Qodobka waa la tirtiray si guul leh",
+    "error": "Waxaa dhacay qalad inta lagu jiray hawsha"
+  }
+}
+

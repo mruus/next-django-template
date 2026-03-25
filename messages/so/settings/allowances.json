@@ -1,0 +1,22 @@
+{
+  "addAllowance": "Ku dar Allowance",
+  "contractType": "Nooca Qandaraaska",
+  "amount": "Qadarka",
+  "description": "Sharaxaad",
+  "drawerTitleCreate": "Ku dar Allowance",
+  "drawerTitleEdit": "Wax ka beddel Allowance",
+  "confirmDeleteTitle": "Tirtir Allowance?",
+  "confirmDeleteDescription": "Ma hubtaa inaad tirtiri doonto Allowance-kan? Waxqabadkani dib looma celin karo.",
+  "validation": {
+    "contractTypeRequired": "Nooca qandaraaska waa loo baahan yahay",
+    "nameRequired": "Magaca Allowance-ka waa loo baahan yahay",
+    "amountRequired": "Qadarku waa inuu sax noqdaa"
+  },
+  "toasts": {
+    "createSuccess": "Allowancu si guul leh ayaa loo abuuray",
+    "updateSuccess": "Allowancu si guul leh ayaa loo cusboonaysiiyay",
+    "deleteSuccess": "Allowancu si guul leh ayaa loo tirtiray",
+    "error": "Waxaa dhacay qalad inta lagu jiray hawsha"
+  }
+}
+

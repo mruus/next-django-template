@@ -1,0 +1,13 @@
+{
+  "groups": "Kooxaha",
+  "directPermissions": "Ogolaanshaha Tooska ah",
+  "groupPermissions": "Ogolaanshaha Kooxaha",
+  "allPermissions": "Dhammaan Ogolaanshaha",
+  "status_active": "Firfircoon",
+  "status_suspended": "Hakad geliyay",
+  "status_blocked": "Xannibay",
+  "buttons": {
+    "groups": "Kooxaha",
+    "assign": "U qoondee"
+  }
+}

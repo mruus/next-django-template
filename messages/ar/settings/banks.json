@@ -1,0 +1,17 @@
+{
+  "addBank": "إضافة بنك",
+  "filters": {},
+  "drawerTitleCreate": "إضافة بنك",
+  "drawerTitleEdit": "تعديل البنك",
+  "confirmDeleteTitle": "حذف البنك؟",
+  "confirmDeleteDescription": "هل أنت متأكد من أنك تريد حذف هذا البنك؟ لا يمكن التراجع عن هذا الإجراء.",
+  "validation": {
+    "nameRequired": "اسم البنك مطلوب"
+  },
+  "toasts": {
+    "createSuccess": "تم إنشاء البنك بنجاح",
+    "updateSuccess": "تم تحديث البنك بنجاح",
+    "deleteSuccess": "تم حذف البنك بنجاح",
+    "error": "حدث خطأ أثناء العملية"
+  }
+}

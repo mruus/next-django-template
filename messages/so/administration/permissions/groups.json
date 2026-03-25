@@ -1,0 +1,26 @@
+{
+  "title": "Kooxaha",
+  "addGroup": "Kudar Koox",
+  "groups": "Kooxaha",
+  "drawerTitleCreate": "Kudar Koox",
+  "drawerTitleEdit": "Wax ka beddel Koox",
+  "confirmDeleteTitle": "Tirtir Koox?",
+  "confirmDeleteDescription": "Ma hubtaa inaad rabto inaad tirtirto kooxdan? Tallaabadaan dib looma soo celin karo.",
+  "permissions": "Ogolaanshaha",
+  "permissionList": "Liiska Ogolaanshaha",
+  "namePlaceholder": "Geli magaca kooxda",
+  "searchPermissions": "Raadi ogolaanshaha...",
+  "noPermissionsFound": "Lama helin ogolaanshaha",
+  "selectedCount": "La doortay: {count}",
+  "resetChanges": "Dib u deji",
+  "validation": {
+    "nameRequired": "Magaca kooxda waa loo baahan yahay"
+  },
+  "toasts": {
+    "createSuccess": "Kooxda si guul leh ayaa loo abuuray",
+    "updateSuccess": "Kooxda si guul leh ayaa loo cusboonaysiiyay",
+    "deleteSuccess": "Kooxda si guul leh ayaa loo tirtiray",
+    "error": "Wax qalad ayaa dhacay",
+    "permissionsSaveSuccess": "Ogolaanshaha kooxda waa la cusboonaysiiyay"
+  }
+}

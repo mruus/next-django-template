@@ -1,0 +1,13 @@
+{
+  "groups": "المجموعات",
+  "directPermissions": "الصلاحيات المباشرة",
+  "groupPermissions": "صلاحيات المجموعات",
+  "allPermissions": "جميع الصلاحيات",
+  "status_active": "نشط",
+  "status_suspended": "موقوف",
+  "status_blocked": "محظور",
+  "buttons": {
+    "groups": "المجموعات",
+    "assign": "تعيين"
+  }
+}

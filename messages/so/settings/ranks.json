@@ -1,0 +1,20 @@
+{
+  "addRank": "Ku dar Darajo",
+  "monthsOfService": "Bilaha Adeegga",
+  "years": "Sanado",
+  "months": "Bilo",
+  "drawerTitleCreate": "Ku dar Darajo",
+  "drawerTitleEdit": "Wax ka bedel Darajada",
+  "confirmDeleteTitle": "Tirtir Darajo?",
+  "confirmDeleteDescription": "Ma hubtaa inaad tirtiri doonto darajadan? Waxqabadkani dib looma celin karo.",
+  "validation": {
+    "nameRequired": "Magaca darajadu waa loo baahan yahay"
+  },
+  "toasts": {
+    "createSuccess": "Darajadu si guul leh ayaa loo abuuray",
+    "updateSuccess": "Darajadu si guul leh ayaa loo cusboonaysiiyay",
+    "deleteSuccess": "Darajadii si guul leh ayaa loo tirtiray",
+    "error": "Waxaa dhacay qalad inta lagu jiray hawsha"
+  }
+}
+

@@ -1,0 +1,18 @@
+{
+  "addRootNode": "إضافة عقدة جذر",
+  "addChild": "إضافة فرع",
+  "drawerTitleCreate": "إنشاء قبيلة",
+  "drawerTitleEdit": "تعديل القبيلة",
+  "confirmDeleteTitle": "حذف القبيلة",
+  "confirmDeleteDescription": "هل أنت متأكد أنك تريد حذف هذه القبيلة؟",
+  "validation": {
+    "nameRequired": "الاسم مطلوب"
+  },
+  "toasts": {
+    "createSuccess": "تم إنشاء القبيلة بنجاح",
+    "updateSuccess": "تم تحديث القبيلة بنجاح",
+    "deleteSuccess": "تم حذف القبيلة بنجاح",
+    "error": "حدث خطأ ما"
+  }
+}
+

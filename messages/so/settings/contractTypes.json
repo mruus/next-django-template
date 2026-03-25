@@ -1,0 +1,18 @@
+{
+  "addContractType": "Ku dar Nooca Qandaraaska",
+  "description": "Sharaxaad",
+  "drawerTitleCreate": "Ku dar Nooca Qandaraaska",
+  "drawerTitleEdit": "Wax ka bedel Nooca Qandaraaska",
+  "confirmDeleteTitle": "Tirtir Nooca Qandaraaska?",
+  "confirmDeleteDescription": "Ma hubtaa inaad tirtiri doonto noocan qandaraaska? Waxqabadkani dib looma celin karo.",
+  "validation": {
+    "nameRequired": "Magaca nooca qandaraaska waa loo baahan yahay"
+  },
+  "toasts": {
+    "createSuccess": "Nooca qandaraaska si guul leh ayaa loo abuuray",
+    "updateSuccess": "Nooca qandaraaska si guul leh ayaa loo cusboonaysiiyay",
+    "deleteSuccess": "Nooca qandaraaska si guul leh ayaa loo tirtiray",
+    "error": "Waxaa dhacay qalad inta lagu jiray hawsha"
+  }
+}
+

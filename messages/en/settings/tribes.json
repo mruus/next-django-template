@@ -1,0 +1,18 @@
+{
+  "addRootNode": "Add root node",
+  "addChild": "Add child",
+  "drawerTitleCreate": "Create tribe",
+  "drawerTitleEdit": "Edit tribe",
+  "confirmDeleteTitle": "Delete tribe",
+  "confirmDeleteDescription": "Are you sure you want to delete this tribe?",
+  "validation": {
+    "nameRequired": "Name is required"
+  },
+  "toasts": {
+    "createSuccess": "Tribe created successfully",
+    "updateSuccess": "Tribe updated successfully",
+    "deleteSuccess": "Tribe deleted successfully",
+    "error": "Something went wrong"
+  }
+}
+

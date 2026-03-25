@@ -1,0 +1,18 @@
+{
+  "addContractType": "إضافة نوع عقد",
+  "description": "الوصف",
+  "drawerTitleCreate": "إضافة نوع عقد",
+  "drawerTitleEdit": "تعديل نوع العقد",
+  "confirmDeleteTitle": "حذف نوع العقد؟",
+  "confirmDeleteDescription": "هل أنت متأكد من أنك تريد حذف نوع العقد؟ لا يمكن التراجع عن هذا الإجراء.",
+  "validation": {
+    "nameRequired": "اسم نوع العقد مطلوب"
+  },
+  "toasts": {
+    "createSuccess": "تم إنشاء نوع العقد بنجاح",
+    "updateSuccess": "تم تحديث نوع العقد بنجاح",
+    "deleteSuccess": "تم حذف نوع العقد بنجاح",
+    "error": "حدث خطأ أثناء العملية"
+  }
+}
+

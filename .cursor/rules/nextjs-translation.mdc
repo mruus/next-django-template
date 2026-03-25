@@ -1,0 +1,9 @@
+---
+alwaysApply: true
+---
+
+
+All translations will be in messages/.
+
+
+So just one thing, rganize them by app routes as we are doing now,a nd if you found a key that exists before, make it common, unless it's unique for a certian feature

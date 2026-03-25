@@ -1,0 +1,30 @@
+{
+  "addLabel": "إضافة تسمية",
+  "battalion": "كتيبة",
+  "location": "موقع",
+  "other": "أخرى",
+  "filters": {
+    "selectField": "اختر حقل للبحث",
+    "searchOptions": {
+      "name": "الاسم",
+      "host": "المضيف",
+      "protocol": "البروتوكول",
+      "environment": "البيئة",
+      "apiPrefix": "بادئة API"
+    }
+  },
+  "drawerTitleCreate": "إضافة تسمية",
+  "drawerTitleEdit": "تعديل التسمية",
+  "confirmDeleteTitle": "حذف التسمية؟",
+  "confirmDeleteDescription": "هل أنت متأكد من أنك تريد حذف هذه التسمية؟ لا يمكن التراجع عن هذا الإجراء.",
+  "validation": {
+    "nameRequired": "اسم التسمية مطلوب",
+    "typeRequired": "النوع مطلوب"
+  },
+  "toasts": {
+    "createSuccess": "تم إنشاء التسمية بنجاح",
+    "updateSuccess": "تم تحديث التسمية بنجاح",
+    "deleteSuccess": "تم حذف التسمية بنجاح",
+    "error": "حدث خطأ أثناء العملية"
+  }
+}

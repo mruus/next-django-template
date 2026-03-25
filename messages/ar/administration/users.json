@@ -1,0 +1,32 @@
+{
+  "status": "الحالة",
+  "addUser": "إضافة مستخدم",
+  "drawerTitleCreate": "إضافة مستخدم",
+  "drawerTitleEdit": "تعديل المستخدم",
+  "confirmDeleteTitle": "حذف المستخدم؟",
+  "confirmDeleteDescription": "هل أنت متأكد من حذف هذا المستخدم؟ لا يمكن التراجع عن هذا الإجراء.",
+  "avatar": "الصورة",
+  "noAvatar": "لا توجد صورة",
+  "chooseImage": "اختر صورة",
+  "removeImage": "إزالة",
+  "firstName": "الاسم الأول",
+  "lastName": "اسم العائلة",
+  "password": "كلمة المرور",
+  "passwordPlaceholder": "اتركه فارغاً للإبقاء على الحالي",
+  "gender": "الجنس",
+  "gender_Male": "ذكر",
+  "gender_Female": "أنثى",
+  "status_active": "نشط",
+  "status_suspended": "موقوف",
+  "status_blocked": "محظور",
+  "phone": "الهاتف",
+  "validation": {
+    "passwordRequired": "كلمة المرور مطلوبة"
+  },
+  "toasts": {
+    "createSuccess": "تم إنشاء المستخدم بنجاح",
+    "updateSuccess": "تم تحديث المستخدم بنجاح",
+    "deleteSuccess": "تم حذف المستخدم بنجاح",
+    "error": "حدث خطأ ما"
+  }
+}

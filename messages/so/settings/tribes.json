@@ -1,0 +1,18 @@
+{
+  "addRootNode": "Ku dar qodob xidid",
+  "addChild": "Ku dar ilmo",
+  "drawerTitleCreate": "Samee qabiil",
+  "drawerTitleEdit": "Wax ka beddel qabiilka",
+  "confirmDeleteTitle": "Tirtir qabiilka",
+  "confirmDeleteDescription": "Ma hubtaa inaad tirtirto qabiilkan?",
+  "validation": {
+    "nameRequired": "Magac waa waajib"
+  },
+  "toasts": {
+    "createSuccess": "Qabiilka waa la sameeyay",
+    "updateSuccess": "Qabiilka waa la cusboonaysiiyay",
+    "deleteSuccess": "Qabiilka waa la tirtiray",
+    "error": "Waxbaa qaldamay"
+  }
+}
+

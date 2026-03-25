@@ -1,0 +1,32 @@
+{
+  "addPayScale": "Ku dar Pay Scale",
+  "rank": "Darajo",
+  "contractType": "Nooca Qandaraaska",
+  "salary": "Mushaar",
+  "iida": "IIDA",
+  "deduction": "Jaritaan",
+  "insurance": "Caymis",
+  "ageOfRetirement": "Da'da Hawlgabka",
+  "slug": "Slug",
+  "drawerTitleCreate": "Ku dar Pay Scale",
+  "drawerTitleEdit": "Wax ka beddel Pay Scale",
+  "confirmDeleteTitle": "Tirtir Pay Scale?",
+  "confirmDeleteDescription": "Ma hubtaa inaad tirtiri doonto Pay Scale-kan? Waxqabadkani dib looma celin karo.",
+  "validation": {
+    "rankRequired": "Darajo waa loo baahan yahay",
+    "contractTypeRequired": "Nooca qandaraaska waa loo baahan yahay",
+    "salaryRequired": "Mushaarku waa inuu sax noqdaa",
+    "iidaRequired": "IIDA waa inay sax noqotaa",
+    "deductionRequired": "Jaritaanku waa inuu sax noqdaa",
+    "insuranceRequired": "Caymisku waa inuu sax noqdaa",
+    "ageOfRetirementRequired": "Da'da hawlgabku waa inay sax noqotaa",
+    "slugRequired": "Slug waa loo baahan yahay"
+  },
+  "toasts": {
+    "createSuccess": "Pay Scale si guul leh ayaa loo sameeyay",
+    "updateSuccess": "Pay Scale si guul leh ayaa loo cusboonaysiiyay",
+    "deleteSuccess": "Pay Scale si guul leh ayaa loo tirtiray",
+    "error": "Waxaa dhacay qalad inta lagu jiray hawsha"
+  }
+}
+

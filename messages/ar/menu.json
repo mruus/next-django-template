@@ -1,0 +1,32 @@
+{
+  "ciidanka": "إتش آر",
+  "maaliyadda": "المالية",
+  "taakuleynta": "اللوجستيات",
+  "maamulka": {
+    "title": "الإدارة",
+    "title2": "التحكم في الوصول",
+    "users": "المستخدمين",
+    "permissions": "الصلاحيات",
+    "groups": "المجموعات",
+    "assign": "تعيين",
+    "sync-menu": "مزامنة القائمة"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "tribes": "القبائل",
+    "locations": "المواقع",
+    "labels": "التسميات",
+    "qualifications": "المؤهلات",
+    "banks": "البنوك",
+    "battalionTree": "شجرة الكتائب",
+    "jobTitles": "المسميات الوظيفية",
+    "ranks": "الرتب",
+    "payScale": "سلم الرواتب",
+    "contractType": "نوع العقد",
+    "allowances": "العلاوات"
+  },
+  "personnel": {
+    "create": "إضافة عسكري",
+    "list": "قائمة العسكريين"
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "addAllowance": "إضافة بدل",
+  "contractType": "نوع العقد",
+  "amount": "المبلغ",
+  "description": "الوصف",
+  "drawerTitleCreate": "إضافة بدل",
+  "drawerTitleEdit": "تعديل البدل",
+  "confirmDeleteTitle": "حذف البدل؟",
+  "confirmDeleteDescription": "هل أنت متأكد من أنك تريد حذف هذا البدل؟ لا يمكن التراجع عن هذا الإجراء.",
+  "validation": {
+    "contractTypeRequired": "نوع العقد مطلوب",
+    "nameRequired": "اسم البدل مطلوب",
+    "amountRequired": "المبلغ يجب أن يكون صحيحا"
+  },
+  "toasts": {
+    "createSuccess": "تم إنشاء البدل بنجاح",
+    "updateSuccess": "تم تحديث البدل بنجاح",
+    "deleteSuccess": "تم حذف البدل بنجاح",
+    "error": "حدث خطأ أثناء العملية"
+  }
+}
+

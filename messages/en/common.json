@@ -1,0 +1,21 @@
+{
+  "name": "Name",
+  "type": "Type",
+  "username": "Username",
+  "email": "Email",
+  "createdAt": "Created At",
+  "createdBy": "Created By",
+  "actions": "Actions",
+  "edit": "Edit",
+  "delete": "Delete",
+  "save": "Save",
+  "cancel": "Cancel",
+  "confirm": "Confirm",
+  "back": "Back",
+  "status": "Status",
+  "filters": {
+    "enterKeyword": "Enter search keyword...",
+    "search": "Search",
+    "clear": "Clear"
+  }
+}

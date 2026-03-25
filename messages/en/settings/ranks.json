@@ -1,0 +1,21 @@
+{
+  "addRank": "Add Rank",
+  "name": "Name",
+  "monthsOfService": "Months of Service",
+  "years": "Years",
+  "months": "Months",
+  "drawerTitleCreate": "Add Rank",
+  "drawerTitleEdit": "Edit Rank",
+  "confirmDeleteTitle": "Delete Rank?",
+  "confirmDeleteDescription": "Are you sure you want to delete this rank? This action cannot be undone.",
+  "validation": {
+    "nameRequired": "Rank name is required"
+  },
+  "toasts": {
+    "createSuccess": "Rank created successfully",
+    "updateSuccess": "Rank updated successfully",
+    "deleteSuccess": "Rank deleted successfully",
+    "error": "Something went wrong"
+  }
+}
+

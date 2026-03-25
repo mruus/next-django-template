@@ -1,0 +1,20 @@
+{
+  "addRank": "إضافة رتبة",
+  "monthsOfService": "مدة الخدمة",
+  "years": "سنوات",
+  "months": "أشهر",
+  "drawerTitleCreate": "إضافة رتبة",
+  "drawerTitleEdit": "تعديل الرتبة",
+  "confirmDeleteTitle": "حذف الرتبة؟",
+  "confirmDeleteDescription": "هل أنت متأكد من أنك تريد حذف هذه الرتبة؟ لا يمكن التراجع عن هذا الإجراء.",
+  "validation": {
+    "nameRequired": "اسم الرتبة مطلوب"
+  },
+  "toasts": {
+    "createSuccess": "تم إنشاء الرتبة بنجاح",
+    "updateSuccess": "تم تحديث الرتبة بنجاح",
+    "deleteSuccess": "تم حذف الرتبة بنجاح",
+    "error": "حدث خطأ أثناء العملية"
+  }
+}
+

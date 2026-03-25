@@ -1,0 +1,15 @@
+meta {
+  name: Verify OTP
+  type: http
+  seq: 2
+}
+
+post {
+  url: {{URL}}auth/verify-otp/
+  body: none
+  auth: inherit
+}
+
+settings {
+  encodeUrl: true
+}

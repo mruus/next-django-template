@@ -1,0 +1,32 @@
+{
+  "status": "Xaalad",
+  "addUser": "Ku dar Isticmaale",
+  "drawerTitleCreate": "Ku dar Isticmaale",
+  "drawerTitleEdit": "Wax ka bedel Isticmaalaha",
+  "confirmDeleteTitle": "Tirtir Isticmaalaha?",
+  "confirmDeleteDescription": "Ma hubtaa inaad tirtirto isticmaalahan? Tallaabadan lama noqon karo.",
+  "avatar": "Sawirka",
+  "noAvatar": "Sawir ma jiro",
+  "chooseImage": "Xulo sawir",
+  "removeImage": "Ka saar",
+  "firstName": "Magaca koowaad",
+  "lastName": "Magaca dambe",
+  "password": "Furaha sirta",
+  "passwordPlaceholder": "Ha ka tagin inuu fadhiyo si aad u ilaalisato hadda",
+  "gender": "Jinsiga",
+  "gender_Male": "Lab",
+  "gender_Female": "Dhedig",
+  "status_active": "Firfircoon",
+  "status_suspended": "La joojiyay",
+  "status_blocked": "Xannibay",
+  "phone": "Telefoonka",
+  "validation": {
+    "passwordRequired": "Furaha sirta waa loo baahan yahay"
+  },
+  "toasts": {
+    "createSuccess": "Isticemaale waa lagu abuuray si guul leh",
+    "updateSuccess": "Isticemaale waa la cusboonaysiiyay si guul leh",
+    "deleteSuccess": "Isticemaale waa la tirtiray si guul leh",
+    "error": "Wax khaldame ayaa dhacay"
+  }
+}

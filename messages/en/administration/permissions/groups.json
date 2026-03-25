@@ -1,0 +1,26 @@
+{
+  "title": "Groups",
+  "addGroup": "Add Group",
+  "groups": "Groups",
+  "drawerTitleCreate": "Add Group",
+  "drawerTitleEdit": "Edit Group",
+  "confirmDeleteTitle": "Delete Group?",
+  "confirmDeleteDescription": "Are you sure you want to delete this group? This action cannot be undone.",
+  "permissions": "Permissions",
+  "permissionList": "Permission List",
+  "namePlaceholder": "Enter group name",
+  "searchPermissions": "Search permissions...",
+  "noPermissionsFound": "No permissions found",
+  "selectedCount": "Selected: {count}",
+  "resetChanges": "Reset",
+  "validation": {
+    "nameRequired": "Group name is required"
+  },
+  "toasts": {
+    "createSuccess": "Group created successfully",
+    "updateSuccess": "Group updated successfully",
+    "deleteSuccess": "Group deleted successfully",
+    "error": "Something went wrong",
+    "permissionsSaveSuccess": "Group permissions updated"
+  }
+}

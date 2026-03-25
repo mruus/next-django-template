@@ -1,0 +1,20 @@
+{
+  "title": "U qoondee ogolaansho",
+  "searchPlaceholder": "Raadi magaca, emaylka, username…",
+  "searchMinChars": "U qor ugu yaraan 2 xaraf",
+  "searching": "Waa la raadinayaa…",
+  "noResults": "Lama helin isticmaale",
+  "clearUser": "Beddel isticmaalaha",
+  "groupsTitle": "Kooxaha",
+  "groupsHint": "Xubinimadu waxay siisaa dhammaan ogolaanshaha kooxda. Ka saar isticmaalaha kooxda si aad u jarto.",
+  "directTitle": "Ogolaansho toos ah",
+  "directHint": "Ogolaanshaha kooxaha laga helay halkan looma muujiyo.",
+  "permissionCount": "{count} ogolaansho",
+  "selectedDirectCount": "Toos: {count}",
+  "save": "Kaydi",
+  "reset": "Dib u deji",
+  "toasts": {
+    "saveSuccess": "Waa la cusboonaysiiyay",
+    "error": "Wax qalad ayaa dhacay"
+  }
+}

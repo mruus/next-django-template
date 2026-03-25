@@ -1,0 +1,32 @@
+{
+  "addPayScale": "إضافة جدول رواتب",
+  "rank": "الرتبة",
+  "contractType": "نوع العقد",
+  "salary": "الراتب",
+  "iida": "إيدا",
+  "deduction": "الخصم",
+  "insurance": "التأمين",
+  "ageOfRetirement": "عمر التقاعد",
+  "slug": "الـ Slug",
+  "drawerTitleCreate": "إضافة جدول رواتب",
+  "drawerTitleEdit": "تعديل جدول الرواتب",
+  "confirmDeleteTitle": "حذف جدول الرواتب؟",
+  "confirmDeleteDescription": "هل أنت متأكد من أنك تريد حذف جدول الرواتب؟ لا يمكن التراجع عن هذا الإجراء.",
+  "validation": {
+    "rankRequired": "الرتبة مطلوبة",
+    "contractTypeRequired": "نوع العقد مطلوب",
+    "salaryRequired": "الراتب يجب أن يكون صحيحا",
+    "iidaRequired": "إيدا يجب أن تكون صحيحة",
+    "deductionRequired": "الخصم يجب أن يكون صحيحا",
+    "insuranceRequired": "التأمين يجب أن يكون صحيحا",
+    "ageOfRetirementRequired": "عمر التقاعد يجب أن يكون صحيحا",
+    "slugRequired": "Slug مطلوب"
+  },
+  "toasts": {
+    "createSuccess": "تم إنشاء جدول الرواتب بنجاح",
+    "updateSuccess": "تم تحديث جدول الرواتب بنجاح",
+    "deleteSuccess": "تم حذف جدول الرواتب بنجاح",
+    "error": "حدث خطأ أثناء العملية"
+  }
+}
+

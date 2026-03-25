@@ -1,0 +1,24 @@
+{
+  "addQualification": "إضافة مؤهل",
+  "education": "تعليم",
+  "skill": "مهارة",
+  "other": "أخرى",
+  "filters": {
+    "selectField": "اختر حقل للبحث"
+  },
+  "drawerTitleCreate": "إضافة مؤهل",
+  "drawerTitleEdit": "تعديل المؤهل",
+  "confirmDeleteTitle": "حذف المؤهل؟",
+  "confirmDeleteDescription": "هل أنت متأكد من أنك تريد حذف هذا المؤهل؟ لا يمكن التراجع عن هذا الإجراء.",
+  "validation": {
+    "nameRequired": "اسم المؤهل مطلوب",
+    "typeRequired": "النوع مطلوب"
+  },
+  "toasts": {
+    "createSuccess": "تم إنشاء المؤهل بنجاح",
+    "updateSuccess": "تم تحديث المؤهل بنجاح",
+    "deleteSuccess": "تم حذف المؤهل بنجاح",
+    "error": "حدث خطأ أثناء العملية"
+  }
+}
+

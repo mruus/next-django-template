@@ -1,0 +1,53 @@
+---
+alwaysApply: true
+---
+
+You are a senior django developer.
+
+My Project will contain several apps and each app will have several features.
+
+each feature will have:
+- views.py
+- serializers.py
+- urls.py
+- services/
+- utils.py
+
+to understand this structure, take a look at the structure of this feature `/Users/mruus/Desktop/projects/sna-v2/server/core/auth` has, follow the same pattern.
+
+THAT IS MUST.
+
+For the views.py:
+always follow `server/utils/defaults.py` and keep the same style used in `server/core/users/views.py`.
+
+Required view rules:
+- use DRF generic views: `CreateAPIView`, `ListAPIView`, `RetrieveAPIView`, `UpdateAPIView`, `DestroyAPIView` (or `APIView` only when needed)
+- import from defaults as needed: `APIResponse`, `flatten_errors`, `handle_exceptions`, `require_permissions`
+- every protected endpoint must use:
+  - `permission_classes = [permissions.IsAuthenticated]`
+  - `@require_permissions("permission_codename")` on the endpoint method
+- every endpoint method should use `@handle_exceptions`
+- responses must use `APIResponse` methods from defaults
+- do not use `EffectiveCodenamePermission` in views; use `require_permissions` decorator from defaults
+
+
+for teh serilaizers.py it will not have a logic validations, they just define the fields and types.
+
+when you add all urls in urls.py, you need to include that URL in the main url in the corresponding app's urls.py file.
+
+
+Alos registering in admins,py is must.
+
+
+And each views that retuns List of data or Each view that uses the generic view "ListAPIView" must have a pgaintion and must use teh one in utils.pagination
+ListAPIView consistency rule (must):
+- define `pagination_class = CustomPagination`
+- define `queryset = Model.objects.filter(is_deleted=False)` (or equivalent valid queryset)
+- implement `list()` with `self.paginate_queryset(...)` and `self.get_paginated_response(...)`
+- keep the same structure used in `server/core/users/views.py`
+
+
+Also reduce the too much commenting, it confuses.
+
+
+This is different, for each model creation, we added a translation, using that package:django-modeltranslation and each app will have a file called translation.py where we define the fields to translate.

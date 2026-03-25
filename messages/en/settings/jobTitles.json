@@ -1,0 +1,18 @@
+{
+  "addJobTitle": "Add Job Title",
+  "description": "Description",
+  "drawerTitleCreate": "Add Job Title",
+  "drawerTitleEdit": "Edit Job Title",
+  "confirmDeleteTitle": "Delete Job Title?",
+  "confirmDeleteDescription": "Are you sure you want to delete this job title? This action cannot be undone.",
+  "validation": {
+    "nameRequired": "Job title name is required"
+  },
+  "toasts": {
+    "createSuccess": "Job title created successfully",
+    "updateSuccess": "Job title updated successfully",
+    "deleteSuccess": "Job title deleted successfully",
+    "error": "Something went wrong"
+  }
+}
+

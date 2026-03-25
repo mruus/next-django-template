@@ -1,0 +1,24 @@
+{
+  "addRootNode": "إضافة عقدة جذر",
+  "addChild": "إضافة فرع",
+  "addBattalionTree": "إضافة شجرة كتائب",
+  "name": "الاسم",
+  "label": "التسمية",
+  "parent": "الأب",
+  "noParent": "بدون أب",
+  "drawerTitleCreate": "إضافة شجرة كتائب",
+  "drawerTitleEdit": "تعديل شجرة الكتائب",
+  "confirmDeleteTitle": "حذف هذا العنصر؟",
+  "confirmDeleteDescription": "هل أنت متأكد أنك تريد حذف هذا العنصر؟ لا يمكن التراجع عن هذا الإجراء.",
+  "validation": {
+    "nameRequired": "الاسم مطلوب",
+    "labelRequired": "التسمية مطلوبة"
+  },
+  "toasts": {
+    "createSuccess": "تم إنشاء العنصر بنجاح",
+    "updateSuccess": "تم تحديث العنصر بنجاح",
+    "deleteSuccess": "تم حذف العنصر بنجاح",
+    "error": "حدث خطأ أثناء العملية"
+  }
+}
+
