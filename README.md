@@ -35,3 +35,31 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 # next-django-template
+
+
+
+
+SECRET_KEY=fj%ls)4^9o)pl*0bi)k1x1qhp=n345()k-1g(-t75+62d85xdl
+DEBUG=true
+ALLOWED_HOSTS=localhost,127.0.0.1
+
+DB_NAME=template_test
+DB_PASSWORD=""
+DB_USER=root
+
+BACKEND_URL=http://127.0.0.1:8000/api/v2/
+NEXTAUTH_SECRET=R2P+KFVo7Mr72379NEvhT0SnLlzo9cuIF2jrW3BpDJ1nb8uyl0ukhRYZkVY=
+
+access_minutes=60
+refresh_hours=5
+sliding_minutes=15
+sliding_refresh_days=1
+
+
+EMAILHOSTUSERNAME=
+EMAILHOSTPASSWORD=
+
+
+REDIS_HOST=127.0.0.1
+REDIS_PORT=6380
+REDIS_PASSWORD=mansuurtech101!
