@@ -30,7 +30,7 @@ export default function LoginForm({ onSuccess }: LoginFormProps) {
 
   const loginSchema = z.object({
     email: z.string().email(t("invalidEmail")),
-    password: z.string().min(6, t("passwordMinLength")),
+    password: z.string().min(2, t("passwordMinLength")),
   });
 
   type LoginValues = z.infer<typeof loginSchema>;
